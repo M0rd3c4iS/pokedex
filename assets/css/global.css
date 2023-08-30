@@ -1,0 +1,44 @@
+* {
+   font-family: 'Roboto', sans-serif;
+   box-sizing: border-box;
+}
+
+.body {
+   background: linear-gradient(to bottom, rgb(56, 172, 218), white );
+   min-width: 100vh;
+}
+
+h1 {
+   color: rgb(0, 0, 0);
+   text-align: left;
+   display: flex;
+   
+
+}
+
+.content {
+   width: 100vw;
+   height: 100vh;
+   padding: 1rem;
+   background: linear-gradient(to bottom, rgb(56, 172, 218), white );
+
+}
+
+.info-quadro {
+   position: absolute;
+   background-color: #fff;
+   border: 1px solid #ccc;
+   padding: 10px;
+   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+   display: none;
+}
+
+
+@media screen and (min-width: 962px) {
+   .content {
+      max-width: 962px;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
+   }
+}
